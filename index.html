@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>youtube_page_Error</title>
+    <meta name="description" content="error page">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="">
+
+    <!--    google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap&text=0123456789" rel="stylesheet">
+
+    <style>
+        html { height:100%; overflow:hidden; }
+        body {
+            height:100%;
+            margin:0;
+            display: contents;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #2d8236;
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            position:relative;
+            overflow:hidden;
+        }
+
+        .error_page {
+            height:100%;
+            width:100%;
+            overflow: auto;
+        }
+        .fat_mario {
+            height:50%;
+            flex-grow:1;
+            width:auto;
+            max-width: 800px;
+            position: relative;
+            top: 0;
+            left: 40%;
+        }
+        h1 {
+            position: static;
+            margin-top: 2em;
+            margin-left: 4.5em;
+            text-align: center;
+            color: #ead998;
+            font-weight: 900;
+            font-size:50px;
+            font-family:"Source Code Pro", monospace,  sans-serif;;
+        }
+
+        #y_page {
+            background-image: url("imgs/capture.PNG");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="error_page" id="y_page" src="imgs/capture.PNG" alt="youTube_page">
+    <h1>Sorry! I'm too fat for the Tube.</h1>
+    <img class="fat_mario" src="imgs/fat_mario.jpg" alt="The tube seems to be stuck.">
+</div>
+
+
+</body>
+</html>
